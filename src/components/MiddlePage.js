@@ -9,7 +9,7 @@ const MiddlePage = () => (
                     <h1>¿Dónde nos encontramos?</h1>
                 </div>
                 <div class="direction-button">
-                    <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Laboriosam quas officia illum aut ipsum voluptatibus magnam ut pariatur reiciendis, tempore aliquid voluptas labore distinctio inventore placeat illo, fugiat ipsam sit!</p>
+                    <p>Nos encontramos entre la intersección de las calles Hidalgo y 5 de mayo en Manzanillo Centro. Venta de equipo de computo, impresiones y más.</p>
                     <button>Ir a google maps</button>
                 </div>
             </div>
