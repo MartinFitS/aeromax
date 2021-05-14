@@ -1,0 +1,132 @@
+.footer{
+    width: 100%;
+    height: 657px;
+    background-color: white;
+    display: flex;
+}
+
+.footer-container_left{
+    width: 33%;
+    height: auto;
+    border-right: 1px solid black;
+    margin-top: 30px;
+    margin-bottom: 30px;
+}
+
+.footer-container_center{
+    width: 33%;
+    height: auto;
+    border-right: 1px solid black;
+    margin-top: 30px;
+    margin-bottom: 30px;
+}
+
+.footer-container_rigth{
+    width: 33%;
+    height: auto;
+    margin-bottom: 30px;
+    margin-top: 30px;
+}
+
+.footer-title-container_left{
+    width: 90%;
+    height: auto;
+    margin-left: 15px;
+}
+.footer-title-container_left h1{
+    text-align: left;
+    padding-left: 20px;
+    font-size: 70px;
+    font-weight: 100;
+    color: black;
+    border-bottom: 1px solid black;
+}
+
+.listOfContacts{
+    width: 100%;
+    height: auto;
+    display: inline-block;
+}
+
+
+.listOfContacts ul{
+    padding-top: 30px;
+}
+
+.listOfContacts ul li{
+    color: black;
+    list-style: none;
+    font-size:30px;
+    padding-left: 15px;
+    padding-bottom: 25px;
+}
+
+.icon{
+    width: 100%;
+    height: auto;
+    display: flex;
+}
+
+.icon img{
+    width: 40px;
+    height: 40px;
+    margin-left: 20px;
+}
+
+.logo-footer{
+    width: 70%;
+    height: auto;
+    margin-left: 70px;
+    margin-right: 40px;
+    background-color: black;
+}
+
+.logo-footer img{
+    width: 100%;
+    height: 300px;
+}
+
+.title-footer_center{
+    width: 100%;
+    height: 70px;
+    display: flex;
+    margin-top: 50px;
+}
+
+.title-footer_center h1{
+    font-size: 40px;
+    font-weight: 100; 
+    margin-left: 150px;
+}
+
+.title-footer_center h1:hover{
+    text-decoration: 1px solid red underline;
+    cursor: pointer;
+}
+
+.title-footer_center span{
+    font-size: 40px;
+    font-weight: 100;
+    color: red; 
+}
+
+.title-footer_center span:hover{
+    font-size: 40px;
+    font-weight: 100; 
+    text-decoration: 1px solid black underline;
+    cursor: pointer;
+}
+
+.information-creator{
+    width: 90%;
+    height: auto;
+    margin-left: 20px;
+}
+
+.information-creator h1{
+    text-align: right;
+    font-size: 60px;
+    font-weight: 100;
+    color: black;
+    border-bottom: 1px solid black;
+}
