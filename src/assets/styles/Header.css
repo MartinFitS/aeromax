@@ -101,3 +101,23 @@
     outline: none;
     font-size: 20px;
 }
+
+@media (max-width:1024px) {
+    .menu ul li a {
+        font-size: 29px;
+    }
+    .form {
+        margin-top: 58px;
+    }
+    .form h1 {
+        font-size: 80px;
+        font-weight: 100;
+    }
+    .container-form input {
+        height: 61px;
+        font-size: 28px;
+    }
+    .container-form button {    
+        height: 53px;
+    }
+}
