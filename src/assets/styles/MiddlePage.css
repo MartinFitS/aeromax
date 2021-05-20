@@ -110,3 +110,44 @@
         margin-left: 150px;
     }
 }
+
+@media(max-width:768px){
+    .mapa iframe {
+        width: 60%;
+        height: 269px;
+        border-radius: 30px;
+        border: 1px solid white;
+        margin-top: 32px;
+        margin-left: 128px;
+    }
+}
+
+@media(max-width:540px){
+    .intermedio {
+        width: 100%;
+        height: 800px;
+    }
+    .mapa iframe {
+        width: 70%;
+        height: 269px;
+        border-radius: 30px;
+        border: 1px solid white;
+        margin-top: 20px;
+        margin-left: 68px;
+    }
+}
+
+@media (max-width: 414px){
+    .intermedio {
+        width: 101%;
+        height: 800px;
+    }
+    .mapa iframe {
+        width: 86%;
+        height: 244px;
+        border-radius: 30px;
+        border: 1px solid white;
+        margin-top: 18px;
+        margin-left: 20px;
+    }
+}
