@@ -142,7 +142,7 @@
         width: 93%;
         border-bottom: 1px solid black;
         border-right: none;
-        margin-left: 34px;
+        margin-left: 17px;
     }
     .footer-container_center {
         border-right: none;
@@ -239,5 +239,50 @@
     .footer-container_left {
         border-bottom: none;
     }
-    
+    .footer-container_left {
+        
+        margin-left: 20px;
+    }
+}
+
+@media(max-width:375px){
+    .logo-footer {
+        margin-left: 11%;
+    }
+    .title-footer_center h1 {
+        font-size: 42px;
+        font-weight: 100;
+        margin-left: 87px;
+    }
+    .title-footer_center span {
+        font-size: 42px;
+        font-weight: 100;
+        color: red;
+    }
+    .title-footer_center {
+        margin-left: 7%;
+        margin-top: 31px;
+    }
+}
+
+
+@media (max-width:320px){
+    .logo-footer {
+        margin-left: 5.4%;
+    }
+    .footer-container_left {
+        width: 93%;
+        margin-left: 7px;
+    }
+    .listOfContacts ul li {
+        color: black;
+        list-style: none;
+        font-size: 20px;
+        padding-left: 13px;
+        padding-bottom: 25px;
+    }
+    .title-footer_center {
+        margin-left: 2%;
+        margin-top: 31px;
+    }
 }
