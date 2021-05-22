@@ -1,8 +1,8 @@
 {
   "files": {
     "main.css": "/Aeromax/static/css/main.88886fd1.chunk.css",
-    "main.js": "/Aeromax/static/js/main.a715426c.chunk.js",
-    "main.js.map": "/Aeromax/static/js/main.a715426c.chunk.js.map",
+    "main.js": "/Aeromax/static/js/main.4bc92225.chunk.js",
+    "main.js.map": "/Aeromax/static/js/main.4bc92225.chunk.js.map",
     "runtime-main.js": "/Aeromax/static/js/runtime-main.7380c295.js",
     "runtime-main.js.map": "/Aeromax/static/js/runtime-main.7380c295.js.map",
     "static/js/2.6c2254b7.chunk.js": "/Aeromax/static/js/2.6c2254b7.chunk.js",
@@ -21,6 +21,6 @@
     "static/js/runtime-main.7380c295.js",
     "static/js/2.6c2254b7.chunk.js",
     "static/css/main.88886fd1.chunk.css",
-    "static/js/main.a715426c.chunk.js"
+    "static/js/main.4bc92225.chunk.js"
   ]
 }
