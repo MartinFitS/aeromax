@@ -227,3 +227,34 @@
         height: 591px;
     }
 }
+
+@media(max-width:280px){
+    .header {
+        width: 108%;
+        height: 702px;
+    }
+    .menu ul li a {
+        font-size: 21px;
+        padding-left: 0px;
+    }
+    .form {
+        margin-top: 74px;
+    }
+    .form h1 {
+        font-size: 55px;
+        font-weight: 100;
+        margin-top: -38px;
+    }
+    .container-form input {
+        height: 43px;
+        font-size: 20px;
+        margin-left: -16px;
+        width: 83%;
+    }
+    .container-form button {
+        height: 44px;
+        width: 21%;
+        margin-left: 6px;
+        font-size: 17px;
+    }
+}

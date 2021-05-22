@@ -214,3 +214,29 @@
         height: 47px;
     }
 }
+
+@media (max-width:280px){
+    .intermedio {
+        width: 108%;
+        height: 704px;
+        padding-top: 10px;
+    }
+    .title-container_left h1 {
+        text-align: center;
+        font-size: 46px;
+        font-weight: 200;
+        color: white;
+    }
+    .direction-button button {
+        width: 71%;
+        height: 47px;
+    }
+    .mapa iframe {
+        width: 89%;
+        height: 219px;
+        border-radius: 30px;
+        border: 1px solid white;
+        margin-top: 18px;
+        margin-left: -2px;
+    }
+}
