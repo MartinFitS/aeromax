@@ -5,7 +5,7 @@ import Home from "../containers/Home";
 const App = () => (
     <BrowserRouter>
         <Switch>
-            <Route exact path="/" component={Home}></Route>
+            <Route exact path="/Aeromax" component={Home}></Route>
         </Switch>
     </BrowserRouter>
 );
