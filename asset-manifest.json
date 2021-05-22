@@ -1,0 +1,26 @@
+{
+  "files": {
+    "main.css": "/Aeromax/static/css/main.88886fd1.chunk.css",
+    "main.js": "/Aeromax/static/js/main.a715426c.chunk.js",
+    "main.js.map": "/Aeromax/static/js/main.a715426c.chunk.js.map",
+    "runtime-main.js": "/Aeromax/static/js/runtime-main.7380c295.js",
+    "runtime-main.js.map": "/Aeromax/static/js/runtime-main.7380c295.js.map",
+    "static/js/2.6c2254b7.chunk.js": "/Aeromax/static/js/2.6c2254b7.chunk.js",
+    "static/js/2.6c2254b7.chunk.js.map": "/Aeromax/static/js/2.6c2254b7.chunk.js.map",
+    "index.html": "/Aeromax/index.html",
+    "static/css/main.88886fd1.chunk.css.map": "/Aeromax/static/css/main.88886fd1.chunk.css.map",
+    "static/js/2.6c2254b7.chunk.js.LICENSE.txt": "/Aeromax/static/js/2.6c2254b7.chunk.js.LICENSE.txt",
+    "static/media/MiddlePage.css": "/Aeromax/static/media/background_two.8b1382cc.jpg",
+    "static/media/github.44eee0c4.png": "/Aeromax/static/media/github.44eee0c4.png",
+    "static/media/panorama.54166223.png": "/Aeromax/static/media/panorama.54166223.png",
+    "static/media/Header.css": "/Aeromax/static/media/pexels-jot-2179483.c792df9d.jpg",
+    "static/media/telefono.be05d22a.png": "/Aeromax/static/media/telefono.be05d22a.png",
+    "static/media/whatsapp.fdd4b700.png": "/Aeromax/static/media/whatsapp.fdd4b700.png"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.7380c295.js",
+    "static/js/2.6c2254b7.chunk.js",
+    "static/css/main.88886fd1.chunk.css",
+    "static/js/main.a715426c.chunk.js"
+  ]
+}
