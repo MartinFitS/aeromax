@@ -1,6 +1,7 @@
 import React from "react";
 import "../assets/styles/MiddlePage.css";
 
+
 const MiddlePage = () => (
     <div class="intermedio">
         <div class="intermedio-container">
