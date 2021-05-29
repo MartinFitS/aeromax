@@ -1,6 +1,6 @@
 {
   "files": {
-    "main.css": "/Aeromax/static/css/main.f3a11793.chunk.css",
+    "main.css": "/Aeromax/static/css/main.e78a5845.chunk.css",
     "main.js": "/Aeromax/static/js/main.ef1dfad6.chunk.js",
     "main.js.map": "/Aeromax/static/js/main.ef1dfad6.chunk.js.map",
     "runtime-main.js": "/Aeromax/static/js/runtime-main.7380c295.js",
@@ -8,7 +8,7 @@
     "static/js/2.a721db13.chunk.js": "/Aeromax/static/js/2.a721db13.chunk.js",
     "static/js/2.a721db13.chunk.js.map": "/Aeromax/static/js/2.a721db13.chunk.js.map",
     "index.html": "/Aeromax/index.html",
-    "static/css/main.f3a11793.chunk.css.map": "/Aeromax/static/css/main.f3a11793.chunk.css.map",
+    "static/css/main.e78a5845.chunk.css.map": "/Aeromax/static/css/main.e78a5845.chunk.css.map",
     "static/js/2.a721db13.chunk.js.LICENSE.txt": "/Aeromax/static/js/2.a721db13.chunk.js.LICENSE.txt",
     "static/media/MiddlePage.css": "/Aeromax/static/media/background_two.8b1382cc.jpg",
     "static/media/github.44eee0c4.png": "/Aeromax/static/media/github.44eee0c4.png",
@@ -20,7 +20,7 @@
   "entrypoints": [
     "static/js/runtime-main.7380c295.js",
     "static/js/2.a721db13.chunk.js",
-    "static/css/main.f3a11793.chunk.css",
+    "static/css/main.e78a5845.chunk.css",
     "static/js/main.ef1dfad6.chunk.js"
   ]
 }
