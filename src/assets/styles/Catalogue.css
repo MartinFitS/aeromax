@@ -89,8 +89,8 @@
         width: 100%;
         height: auto;
         margin-top: 7%;
-        margin-bottom: 9%;
-        margin-left: 0%;
+        margin-bottom: 9%;       
+        margin-left: .75%;
     }
     .containerName h1 {
         font-size: 31px;
