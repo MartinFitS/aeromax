@@ -1,5 +1,13 @@
 const reducer = (state,action) =>{
-    return state;
+    switch(action.type){
+        case "SEARCH_PRODUCT":
+            return{
+                ...state,
+                search: action.payload
+            }
+            default:
+                return state;
+    }
 };
 
 export default reducer;

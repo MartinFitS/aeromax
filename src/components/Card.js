@@ -2,7 +2,7 @@ import React from "react";
 import "../assets/styles/Card.css";
 
 const Card = (props) => {
-    const {type,img,product,description,price} = props;
+    const {name,img,product,description,price} = props;
 
     return(  
             <div className="card">
@@ -10,7 +10,7 @@ const Card = (props) => {
                     <img src={img} alt="image_card"/>
                 </div>
                 <div className="info">
-                    <h1>{type}</h1>
+                    <h1>{name}</h1>
                     <h2>{product}</h2>
                     <p>{description}</p>
                     <h3>{price}</h3>

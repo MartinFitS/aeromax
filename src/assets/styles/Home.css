@@ -1,0 +1,121 @@
+.containerSearch{
+    width: 100%;
+    height: auto;
+    display: flex;
+    margin: 0 auto;
+}
+
+.containerCardSearch{
+    width: 100%;
+    height: auto;
+    display: inline-block; 
+}
+
+.titleSearch{
+    width: 100%;
+    height: auto;
+    font-size: 30px;
+    text-align: center;
+}
+
+.titleSearch h1 {
+    font-size: 35px;
+    font-weight: 100;
+}
+
+.titleSearch span{
+    font-size: 33px;
+    font-weight: 100;
+    color: tomato;
+}
+
+.titleSearch span:hover{
+    text-decoration: underline;
+}
+
+.badSearch{
+    background-color: rgb(255, 255, 130);
+}
+
+.titleSearch p{
+    background-color: rgb(168, 203, 255);
+}
+
+@media (max-width:414px) {      
+    .titleSearch h1 {
+       font-size: 25px;
+       font-weight: 100;
+    }
+    .titleSearch span{
+       font-size: 23px;
+       font-weight: 100;
+       color: tomato;
+    }
+    .badSearch{
+        background-color: rgb(255, 255, 130);
+        width: 101%;
+        height: auto;
+    }
+    .titleSearch p{
+        background-color: rgb(168, 203, 255);
+        width: 101%;
+        height: auto;
+        font-size: 23px;
+    }
+    
+}
+
+@media(max-width:375px){
+    .badSearch{
+        background-color: rgb(255, 255, 130);
+        width: 102%;
+        height: auto;
+    }
+    .titleSearch p{
+        background-color: rgb(168, 203, 255);
+        width: 102%;
+        height: auto;
+        font-size: 23px;
+    }
+}
+@media(max-width:320px){
+    .badSearch{
+        background-color: rgb(255, 255, 130);
+        width: 104%;
+        height: auto;
+    }
+    .titleSearch p{
+        background-color: rgb(168, 203, 255);
+        width: 104%;
+        height: auto;
+        font-size: 23px;
+    }
+}
+@media (max-width:320px) {      
+    .titleSearch h1 {
+       font-size: 20px;
+       font-weight: 100;
+    }
+    .titleSearch span{
+       font-size: 18px;
+       font-weight: 100;
+       color: tomato;
+    }
+}
+
+@media(max-width:280px){
+    .badSearch{
+        background-color: rgb(255, 255, 130);
+        width: 108%;
+        height: auto;
+    }
+    .titleSearch p{
+        background-color: rgb(168, 203, 255);
+        width: 108%;
+        height: auto;
+        font-size: 23px;
+    }
+    .titleSearch {
+     width: 108%;
+    }
+}
