@@ -9,6 +9,7 @@ const Catalogue = ({products}) => {
    
     const filterUsb = products.filter(usb => usb.type === "USB");
     const filterSd = products.filter(sd => sd.type === "MICROSD");
+    const filterHeadphones = products.filter(hp => hp.type === "AUDIFONOS");
 
     return(
         <React.Fragment>
@@ -32,8 +33,15 @@ const Catalogue = ({products}) => {
                             )
                         }
                     </div>
-                </div>
-                    
+                    <div className="containerCard">
+                        <div className="containerName"><h1>AUDIFONOS</h1></div>
+                        {
+                            filterHeadphones.map(
+                                hp => <Card key={hp.id} {...hp}/>
+                            )
+                        }
+                    </div>
+                </div>      
             </div>
         </React.Fragment>
         

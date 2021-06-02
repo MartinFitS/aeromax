@@ -22,6 +22,13 @@ const Home = ({search, products}) =>{
             return i.class === searchFilter
         });
     }
+
+    if(filterCatalogue == 0){
+        filterCatalogue = products.filter((i)=>{
+            return i.brand === searchFilter
+        });
+    }
+
    if(filterCatalogue == 0){
         keyForNotResults = true;
    }
@@ -42,7 +49,7 @@ const Home = ({search, products}) =>{
                 {
                     validationNotUndefinded && keyForNotResults === true
                     ?
-                    <h1 className="badSearch">No se encontraron resultados para: <span>{searchFilter}:(</span></h1>
+                    <h1 className="badSearch">No se encontraron resultados para: <span>"{searchFilter}":(</span></h1>
                     :
                     null
                 }
