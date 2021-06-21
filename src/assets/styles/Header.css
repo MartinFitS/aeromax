@@ -1,7 +1,7 @@
 .header{
     width: 100%;
     height: 656px;
-    background-image: url("../static/pexels-jot-2179483.jpg");
+    background-color: rgb(70, 144, 255);
     background-size: cover;
     padding: 30px;
     ;
