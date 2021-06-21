@@ -33,7 +33,12 @@ class Catalogue extends React.Component{
         let filterCatalogueHEADPHONES = products.filter((i)=>{
             return i.type === "AUDIFONOS"
         })
-     
+
+        let filterCatalogueCAMERAS = products.filter((i)=>{
+            return i.type === "CAMARA"
+        })
+        
+        console.log(filterCatalogueCAMERAS)
 
         return<React.Fragment>
         <HeaderNoHome/>
@@ -101,6 +106,15 @@ class Catalogue extends React.Component{
                     {
                         filterCatalogueHEADPHONES.map(
                             hp => <Card key={hp.id} {...hp}/>
+                        )
+                    }
+                </div>
+
+                <div className="containerCard">
+                    <div className="containerName"><h1>WEB CAMS</h1></div>
+                    {
+                        filterCatalogueCAMERAS.map(
+                            camera => <Card key={camera.id} {...camera}/>
                         )
                     }
                 </div>
