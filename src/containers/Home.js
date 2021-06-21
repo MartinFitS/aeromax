@@ -1,91 +1,80 @@
-import React from "react";
+import React, {useEffect,useState} from "react";
 import Header from "../components/Header";
 import { connect } from "react-redux";
 import MiddlePage from "../components/MiddlePage.js";
 import Card from "../components/Card";
-import CatalogueNav from "../components/CatalogueNav";
 import "../assets/styles/Home.css"
 
-const Home = ({search, products}) =>{
-    let searchNull = search === null;
-    let validationNotUndefinded = searchNull ? null : search.search != undefined;
-    let keyForNotResults = false;
-    let searchFilter = validationNotUndefinded ? search.search.toUpperCase().replace(/\s+/g, ''):null;
+const Home = ({search}) =>{
+    const URL = "https://aeromax-api.vercel.app/api/products";
+    let resultUndefined = search.search === undefined;
+    let result = !resultUndefined ? search.search.toUpperCase() : null;
+    let notFound = false;
+    const [products, setProducts] = useState();
 
-
-    let filterCatalogue = products.filter((i)=>{
-        return i.type === searchFilter
-    });
-
-    if(filterCatalogue == 0){
-        filterCatalogue = products.filter((i)=>{
-            return i.class === searchFilter
-        });
+    const fetchApi = async () => {
+        const response = await fetch(URL);
+        const responseJSON = await response.json();
+        setProducts(responseJSON.data);
     }
 
-    if(filterCatalogue == 0){
-        filterCatalogue = products.filter((i)=>{
-            return i.brand === searchFilter
-        });
+    useEffect(() => {
+        fetchApi();
+    }, []);
+
+    let undefinedProduct = products !== undefined;
+
+    let resultProducts = undefinedProduct
+        ?
+        products.filter((i) => {
+            return i.type === result;
+        })
+        :
+        null
+
+    if(resultProducts == 0){
+        resultProducts = products.filter((i)=>{
+            return i.class == result
+        })
     }
 
-   if(filterCatalogue == 0){
-        keyForNotResults = true;
-   }
+    if(resultProducts == 0){
+        resultProducts = products.filter((i)=>{
+            return i.brand == result
+        })
+    }
 
-    console.log(filterCatalogue);
-    return(
+    if(resultProducts == 0){
+        notFound = true;
+    }
+
+    console.log(notFound,resultUndefined);
+    console.log(resultUndefined)
+    return (
         <div>
-               <Header/>
+            <Header />
             <div className="titleSearch">
                 {
-                     validationNotUndefinded && keyForNotResults === false
-                     ?
-                     <h1>Estos son los resultados para su búsqueda: <span>{searchFilter}</span></h1>
-                     :
-                     null
+                    notFound && resultUndefined === false? <h1>Lo siento no encontramos resultados para:{result}:c</h1>:[]
                 }
-
                 {
-                    validationNotUndefinded && keyForNotResults === true
-                    ?
-                    <h1 className="badSearch">No se encontraron resultados para: <span>"{searchFilter}":(</span></h1>
-                    :
-                    null
-                }
-                     {
-                    validationNotUndefinded && keyForNotResults === true
-                    ?
-                    <p>Puede intentar con las siguientes palabras clave: Memorias , Usb , Micro Sd</p>
-                    :
-                    null
+                     notFound === false && resultUndefined === false ? <h1>Resultados para: {result}:)</h1>:[]
                 }
             </div>
             <div className="containerSearch">
-   
+                <div className="containerCardSearch">
                     {
-                        validationNotUndefinded && keyForNotResults === false
-                        ?
-                        <CatalogueNav/>
-                        :
-                        null
-                    }
-                <div className= "containerCardSearch">
-                    {
-                        validationNotUndefinded?
-                        filterCatalogue.map(i=>
+                        resultProducts != undefined ? resultProducts.map(i =>
                             <Card
                                 key={i.id}
                                 {...i}
                             />
-                        )
-                        :
-                        null
+                        ) : null
                     }
-                    </div>
-                <div/>
+                </div>
+                <div />
             </div>
-            <MiddlePage/>
+            <MiddlePage />
         </div>
     )
 };
@@ -93,7 +82,6 @@ const Home = ({search, products}) =>{
 const mapStateToProps = state => {
     return{
         search: state.search,
-        products: state.products
     }
 }
 

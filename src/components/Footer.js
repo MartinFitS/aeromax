@@ -6,6 +6,7 @@ import facebookIcon from "../assets/static/facebook.png";
 import emailIcon from "../assets/static/panorama.png";
 import instagramIcon from "../assets/static/instagram.png";
 import githubIcon from "../assets/static/github.png";
+import iconApi from "../assets/static/api.png";
 import Logo from "../assets/static/logo.png";
 
 const Footer = () => (
@@ -43,6 +44,7 @@ const Footer = () => (
                       <a href="https://api.whatsapp.com/send?phone=3143386885&text=Hola,%20me%20gusto%20mucho%20tu%20página&20web" target="_blank" rel="noreferrer"><div className="icon"><img src={whatsappIcon} alt="WhatsApp Icon"/><li>314.338.6885</li></div></a>
                       <a href="https://www.instagram.com/mserna10/?hl=es-la" target="_blank" rel="noreferrer"><div className="icon"><img src={instagramIcon} alt="Instagram Icon"/><li>@mserna10</li></div></a>
                       <a href="https://github.com/MartinFitS"  target="_blank" rel="noreferrer"><div className="icon"><img src={githubIcon} alt="GitHub Icon"/><li>@MartinFitS</li></div></a>
+                      <a href="https://aeromax-api.vercel.app/api/products"  target="_blank" rel="noreferrer"><div className="icon"><img src={iconApi} alt="GitHub Icon"/><li>App powered by @Aeromax-Api</li></div></a>
                 </ul>
             </div>
         </div>
