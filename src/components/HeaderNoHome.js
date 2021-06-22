@@ -1,6 +1,6 @@
 import React from "react";
 import "../assets/styles/HeaderNoHome.css";
-import {Link} from "react-router-dom"
+import {Link} from "react-router-dom";
 
 const HeaderNoHome = () => (
     <div className="headerNoHome_container">

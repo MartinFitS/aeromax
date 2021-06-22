@@ -11,7 +11,7 @@ const MiddlePage = () => (
                 </div>
                 <div class="direction-button">
                     <p>Nos encontramos entre la intersección de las calles Hidalgo y 5 de mayo en Manzanillo Centro. Venta de equipo de computo, impresiones y más.</p>
-                    <button>Ir a google maps</button>
+                    <a href="https://www.google.com/maps?ll=19.051196,-104.315447&z=16&t=m&hl=es&gl=MX&mapclient=embed&cid=9530300163618480894" target="_blank" rel="noreferrer"><button>Ir a google maps</button></a>
                 </div>
             </div>
             <div class="intermedio-container_right">

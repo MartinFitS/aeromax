@@ -38,11 +38,13 @@ class Catalogue extends React.Component{
             return i.type === "CAMARA"
         })
         
-
+        console.log(products)
         return<React.Fragment>
         <HeaderNoHome/>
+       
         <div className="mainContainer">
         <div className="cardNav">
+           
             <h1>USB</h1>
             <ul>
               {
