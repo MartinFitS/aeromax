@@ -38,7 +38,6 @@ class Catalogue extends React.Component{
             return i.type === "CAMARA"
         })
         
-        console.log(filterCatalogueCAMERAS)
 
         return<React.Fragment>
         <HeaderNoHome/>
@@ -70,6 +69,17 @@ class Catalogue extends React.Component{
             <ul>
             {
                 filterCatalogueHEADPHONES.map(i=>
+                    <CatalogueNav
+                        key={i.id}
+                        {...i}
+                    />    
+                )
+            }
+            </ul>
+            <h1>Web Cams</h1>
+            <ul>
+            {
+                filterCatalogueCAMERAS.map(i=>
                     <CatalogueNav
                         key={i.id}
                         {...i}

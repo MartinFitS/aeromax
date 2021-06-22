@@ -105,6 +105,9 @@
 
 .container-form button:hover{
    cursor:pointer;
+   background-color: white;
+   color:rgb(70, 144, 255);
+   transition: 250ms;
 }
 
 

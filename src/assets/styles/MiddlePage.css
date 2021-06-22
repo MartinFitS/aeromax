@@ -60,6 +60,12 @@
     cursor: pointer;
 }
 
+.direction-button button:hover{
+    color: rgb(236, 201, 105);
+    background-color: white;
+    transition: 250ms;
+}
+
 .intermedio-container_right{
     width: 100%;
     height: auto;

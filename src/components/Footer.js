@@ -7,7 +7,7 @@ import emailIcon from "../assets/static/panorama.png";
 import instagramIcon from "../assets/static/instagram.png";
 import githubIcon from "../assets/static/github.png";
 import iconApi from "../assets/static/api.png";
-import Logo from "../assets/static/logo.png";
+import Logo from "../assets/static/logo-Aeromax-negro.png";
 
 const Footer = () => (
     <footer className="footer">

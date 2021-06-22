@@ -6,18 +6,19 @@ import Card from "../components/Card";
 import "../assets/styles/Home.css"
 
 const Home = ({search}) =>{
+    const searchInHome = search === null ? "": search.search;
     const URL = "https://aeromax-api.vercel.app/api/products";
-    let resultUndefined = search.search === undefined;
-    let result = !resultUndefined ? search.search.toUpperCase() : null;
+    let searchNull = search === null?[]:searchInHome === undefined ? [] : null;
+    let result = !searchNull ? search.search.toUpperCase() : null;
     let notFound = false;
     const [products, setProducts] = useState();
-
+ 
     const fetchApi = async () => {
         const response = await fetch(URL);
         const responseJSON = await response.json();
         setProducts(responseJSON.data);
     }
-
+  
     useEffect(() => {
         fetchApi();
     }, []);
@@ -48,17 +49,15 @@ const Home = ({search}) =>{
         notFound = true;
     }
 
-    console.log(notFound,resultUndefined);
-    console.log(resultUndefined)
     return (
         <div>
             <Header />
             <div className="titleSearch">
                 {
-                    notFound && resultUndefined === false? <h1>Lo siento no encontramos resultados para:{result}:c</h1>:[]
+                    notFound && searchNull === false? <h1>Lo siento no encontramos resultados para:{result}:c</h1>:[]
                 }
                 {
-                     notFound === false && resultUndefined === false ? <h1>Resultados para: {result}:)</h1>:[]
+                     notFound === false && searchNull === false ? <h1>Resultados para: {result}:)</h1>:[]
                 }
             </div>
             <div className="containerSearch">
