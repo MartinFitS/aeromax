@@ -1,14 +1,14 @@
 {
   "files": {
-    "main.css": "/aeromax/static/css/main.4147d30e.chunk.css",
-    "main.js": "/aeromax/static/js/main.8508e571.chunk.js",
-    "main.js.map": "/aeromax/static/js/main.8508e571.chunk.js.map",
+    "main.css": "/aeromax/static/css/main.7d89d6ef.chunk.css",
+    "main.js": "/aeromax/static/js/main.593349fe.chunk.js",
+    "main.js.map": "/aeromax/static/js/main.593349fe.chunk.js.map",
     "runtime-main.js": "/aeromax/static/js/runtime-main.5c08cb0d.js",
     "runtime-main.js.map": "/aeromax/static/js/runtime-main.5c08cb0d.js.map",
     "static/js/2.c1f0229a.chunk.js": "/aeromax/static/js/2.c1f0229a.chunk.js",
     "static/js/2.c1f0229a.chunk.js.map": "/aeromax/static/js/2.c1f0229a.chunk.js.map",
     "index.html": "/aeromax/index.html",
-    "static/css/main.4147d30e.chunk.css.map": "/aeromax/static/css/main.4147d30e.chunk.css.map",
+    "static/css/main.7d89d6ef.chunk.css.map": "/aeromax/static/css/main.7d89d6ef.chunk.css.map",
     "static/js/2.c1f0229a.chunk.js.LICENSE.txt": "/aeromax/static/js/2.c1f0229a.chunk.js.LICENSE.txt",
     "static/media/api.c325fcf0.png": "/aeromax/static/media/api.c325fcf0.png",
     "static/media/github.44eee0c4.png": "/aeromax/static/media/github.44eee0c4.png",
@@ -19,7 +19,7 @@
   "entrypoints": [
     "static/js/runtime-main.5c08cb0d.js",
     "static/js/2.c1f0229a.chunk.js",
-    "static/css/main.4147d30e.chunk.css",
-    "static/js/main.8508e571.chunk.js"
+    "static/css/main.7d89d6ef.chunk.css",
+    "static/js/main.593349fe.chunk.js"
   ]
 }
