@@ -9,7 +9,7 @@ const App = () => (
         <Layout>
             <Switch>
                 <Route exact path="/aeromax/" component={Home}></Route>
-                <Route exact path="/catalogo" component={Catalogue}></Route>
+                <Route exact path="/aeromax/catalogo" component={Catalogue}></Route>
             </Switch>
         </Layout>
     </BrowserRouter>

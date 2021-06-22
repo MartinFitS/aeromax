@@ -33,7 +33,7 @@ return(
     
             <div className="menu">
                 <ul>
-                    <Link to="/catalogo">
+                    <Link to="/aeromax/catalogo">
                         <li>Catálogo</li>
                     </Link>
                  
